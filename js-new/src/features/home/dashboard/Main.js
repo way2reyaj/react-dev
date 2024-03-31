@@ -1,12 +1,14 @@
 import React from 'react'
 import DisplaySection from './DisplaySection'
+import Tech from './Tech'
 
 const Main = () => {
   return (
     <div>
       <DisplaySection />
+      <Tech />
 
-      <div className='h-14 w-14 border-2 border-black m-4 animate-spin'></div>
+
 
 
     </div >
